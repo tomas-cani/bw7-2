@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'LGW-Regular';
+  src: url('./fonts/LabGrotesqueWeb-Regular.woff');
+}
+
+@font-face {
+  font-family: 'LGW-Regular';
+  src: url('./fonts/LabGrotesqueWeb-Bold.woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'LGW-Regular';
+  src: url('./fonts/LabGrotesqueWeb-Italic.woff');
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'LGW-Regular';
+  src: url('./fonts/LabGrotesqueWeb-BoldItalic.woff');
+  font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'LGW-Black';
+  src: url('./fonts/LabGrotesqueWeb-Black.woff');
+}
+
+@font-face {
+  font-family: 'LGW-Black';
+  src: url('./fonts/LabGrotesqueWeb-BlackItalic.woff');
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'LGW-Light';
+  src: url('./fonts/LabGrotesqueWeb-Light.woff');
+}
+
+@font-face {
+  font-family: 'LGW-Light';
+  src: url('./fonts/LabGrotesqueWeb-LightItalic.woff');
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'LGW-Medium';
+  src: url('./fonts/LabGrotesqueWeb-Medium.woff');
+}
+
+@font-face {
+  font-family: 'LGW-Medium';
+  src: url('./fonts/LabGrotesqueWeb-MediumItalic.woff');
+	font-style: italic;
+}

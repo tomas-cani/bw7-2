@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BW7-2</title>
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="lib/bootstrap.min.css" />
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <input type="checkbox" id="navbar-toggle-cbox">
+      <div class="navbar-header">
+        <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </label>
+        <a class="navbar-brand" href="#">
+          <img class="bw7-logo" alt="blackwood 7 logo" height="33" width="38" src="images/bw7_logo_white.png" />
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">PREDICT</a></li>
+          <li class="active"><a href="#about">MANAGE</a></li>
+          <li><a href="#about">EVALUATE</a></li>
+        </ul>
+        <div class="navbar-text navbar-right account-settings">
+          <p>Client name</p>
+          <a href="#" class="">Account settings</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="main-content container-fluid">
+    <section class="row kpi-status">
+      <h1 class="section-header">KPI status</h1>
+      <div class="kpi-list">
+        <article class="kpi-item panel panel-default">
+          <header class="panel-title panel-heading">Raise sales</header>
+          <main class="panel-body">
+            <p class="main-number">2.750.000</p>
+            <a href="">Media generated sales</a>
+            <p class="secondary-number">1.500.000</p>
+            <a href="">Spend</a>
+          </main>
+        </article>
+        <article class="kpi-item panel panel-default">
+          <header class="panel-title panel-heading">Gain new subscribers</header>
+          <main class="panel-body">
+            <p class="main-number">220.000</p>
+            <a href="">Media generated subscribers</a>
+            <p class="secondary-number">70.000</p>
+            <a href="">Spend</a>
+          </main>
+        </article>
+      </div>
+    </section>
+    <section class="row campaigns">
+      <h1 class="section-header">Campaigns</h1>
+      <div class="table-options">
+        <button class="btn btn-info">CREATE NEW</button>
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">List</button>
+          <button type="button" class="btn btn-default">Timeline</button>
+        </div>
+      </div>
+      <table class="table table-striped table-bordered table-responsive">
+        <thead>
+          <th>Campaign name</th>
+          <th>Status</th>
+          <th>Marketing goal</th>
+          <th>Tags</th>
+          <th>Date</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Campaign 27</td>
+            <td><span class="status-icon prediction">&#8226;</span> Prediction</td>
+            <td>Raise awareness</td>
+            <td>Brand: BW7</td>
+            <td>01/06/16-31/08/16</td>
+          </tr>
+          <tr>
+            <td>Campaign 3</td>
+            <td><span class="status-icon prediction">&#8226;</span> Prediction</td>
+            <td>Raise new subscribers</td>
+            <td>Product: Newsletter</td>
+            <td>01/02/016-30/02/16</td>
+          </tr>
+          <tr>
+            <td>Campaign 9</td>
+            <td><span class="status-icon prediction">&#8226;</span> Prediction</td>
+            <td>Raise new subscribers</td>
+            <td>Product: Newsletter</td>
+            <td>15/01/16-31/03/16</td>
+          </tr>
+          <tr>
+            <td>Campaign 22</td>
+            <td><span class="status-icon running">&#8226;</span> Running</td>
+            <td>Raise awareness</td>
+            <td>Brande: BW7;Product: RTPM</td>
+            <td>01/01/16-31/01/16</td>
+          </tr>
+          <tr>
+            <td>Campaign 4</td>
+            <td><span class="status-icon running">&#8226;</span> Running</td>
+            <td>Raise sales</td>
+            <td>Product: RTPM</td>
+            <td>15/12/16-15/01/16</td>
+          </tr>
+          <tr>
+            <td>Campaign 2</td>
+            <td><span class="status-icon finished">&#8226;</span> Finished</td>
+            <td>Raise awareness</td>
+            <td>Product: RTPM</td>
+            <td>01/12/16-31/12/16</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="row creative-materials">
+      <h1 class="section-header">Creative materials</h1>
+      <button class="btn btn-info">UPLOAD NEW</button>
+      <div class="materials-filters">
+        <label><input type="checkbox" />All</label>
+        <label><input type="checkbox" checked="true" />TV</label>
+        <label><input type="checkbox" />Radio</label>
+        <label><input type="checkbox" checked="true"/>Print</label>
+        <label><input type="checkbox" checked="true"/>Outdoor</label>
+        <label><input type="checkbox" checked="true"/>Online</label>
+      </div>
+      <div class="materials-list">
+        <article class="material panel panel-default">
+          <div class="image-container material-1"></div>
+          <main class="material-body">
+            <p>The truth</p>
+            <p><a href="">Print</a></p>
+          </main>
+        </article>
+        <article class="material panel panel-default">
+          <div class="image-container material-2"></div>
+          <main class="material-body">
+            <p>Summer campaign 3</p>
+            <p><a href="">TV</a></p>
+          </main>
+        </article>
+        <article class="material panel panel-default">
+          <div class="image-container material-3"></div>
+          <main class="material-body">
+            <p>Job fair banner</p>
+            <p><a href="">Outdoor</a></p>
+          </main>
+        </article>
+        <article class="material panel panel-default">
+          <div class="image-container material-4"></div>
+          <main class="material-body">
+            <p>Offer free trial</p>
+            <p><a href="">Online</a></p>
+          </main>
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer class="footer main-footer">
+    <span>2016 Blackwood Seven A/S</span>
+    <a href="" class="feedback">Feedback</a>
+    <div class="social-icons">
+      <a href=""><img src="images/facebook.png" height="35" width="35"/></a>
+      <a href=""><img src="images/twitter.png" height="35" width="35"/></a>
+      <a href=""><img src="images/linkedin.png" height="35" width="35"/></a>
+    </div>
+  </footer>
+</body>
+</html>

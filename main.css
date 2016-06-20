@@ -1,0 +1,201 @@
+body {
+  font-family: 'LGW-Regular'!important;
+  padding-top: 70px;
+}
+
+.panel {
+  border-radius: 0 !important;
+}
+
+h1.section-header {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Navbar */
+
+#navbar-toggle-cbox:checked ~ .collapse {
+  display: block;
+}
+
+#navbar-toggle-cbox {
+  display:none
+}
+
+a.navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-text.account-settings {
+  align-items: center;
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  justify-content: center;    /* center items vertically, in this case */
+  margin-right: 20px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.account-settings a {
+  font-size: 10px;
+}
+
+.account-settings p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+div.main-content {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.main-content .btn-info {
+  margin: 5px 5px 5px 0;;
+}
+
+/* KPI status */
+
+.kpi-item, .material  {
+  float:left;
+  margin-right: 30px;
+  width: 190px;
+  height: 200px;
+}
+
+.kpi-list {
+  float: left;
+}
+
+.kpi-item .panel-body {
+  text-align: center;
+}
+
+.kpi-item a {
+  font-size: 12px;
+}
+
+.main-number {
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.secondary-number {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* Campaigns */
+
+thead {
+  background-color: #DDD;
+}
+.table-options {
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  float: right;
+}
+
+.btn-group .btn {
+  color: #FFF;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.status-icon {
+  font-size: 15px;
+}
+
+.status-icon.prediction {
+  color: orange;
+}
+
+.status-icon.running {
+  color: green;
+}
+
+.status-icon.finished {
+  color: #5bc0de;
+}
+
+/* Creative materials */
+
+.materials-filters {
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+.materials-filters input[type=checkbox] {
+  margin: 10px;
+}
+
+.material p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.material a {
+  font-size: 12px;
+}
+
+.material-body {
+  margin-top: 15px;
+}
+
+.material-1 {
+  background-image: url("images/Material 1.png");
+}
+
+.material-2 {
+  background-image: url("images/Material 2.png");
+}
+
+.material-3 {
+  background-image: url("images/Material 3.png");
+}
+
+.material-4 {
+  background-image: url("images/Material 4.png");
+}
+
+.image-container {
+    width: 190px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+/* Footer */
+
+.feedback {
+  font-size: 18px;
+}
+
+.social-icons {
+  margin: 20px 5px;
+}
+
+.social-icons a {
+  margin: 7px;
+}
+
+footer.main-footer {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  font-family: 'LabGrotesqueWeb-Light';
+  color: #DDDDDD;
+  font-size: 12px;
+}
